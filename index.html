@@ -263,7 +263,6 @@
       <!-- 
         - #PORTFOLIO
       -->
-
       <section class="section portfolio" id="portfolio">
         <div class="container">
 
@@ -275,7 +274,122 @@
             
           </p>
 
-          <ul class="portfolio-list">
+      <ul class="portfolio-list">
+
+        <!-- Health Disease Tracker -->
+        <li>
+          <div class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+            <div class="card-content">
+              <p class="card-subtitle">Data Pipeline Project</p>
+              <h3 class="h3 card-title">
+                🩺 Health Disease Tracker
+                <a href="https://github.com/nikkirastogi/Hospital-Disease-Track-Warehouse_ETL" target="_blank" title="GitHub">
+                  <img src="./assets/icons/github.svg" alt="GitHub" style="width: 18px; margin-left: 8px;">
+                </a>
+              </h3>
+              <ul class="project-highlights">
+                <li>Designed OLTP schema & dimensional model for patient records and diseases.</li>
+                <li>Built ETL pipeline in Snowflake using Airflow and dbt for daily healthcare ingestion.</li>
+                <li>Enabled data refreshes with retry logic, alerting, and executive KPIs.</li>
+                <li>Delivered insights on appointment and treatment trends via SQL transformations.</li>
+              </ul>
+              <p class="tech-stack"><strong>Tech Stack:</strong> PostgreSQL | Snowflake | dbt | Airflow | Python | Tableau</p>
+            </div>
+          </div>
+        </li>
+      
+        <!-- AI-Powered Fraud Detection -->
+        <li>
+          <div class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
+            <div class="card-content">
+              <p class="card-subtitle">ML Project</p>
+              <h3 class="h3 card-title">
+                🔍 AI-Powered Fraud Detection
+                <a href="https://github.com/nikkirastogi/AI-Powered-Fraud-Detection-in-Financial-Transactions" target="_blank">
+                  <img src="./assets/icons/github.svg" alt="GitHub" style="width: 18px; margin-left: 8px;">
+                </a>
+              </h3>
+              <ul class="project-highlights">
+                <li>Trained LightGBM, XGBoost, and other models on the IEEE-CIS dataset (~590K records).</li>
+                <li>Addressed 3.5% class imbalance using SMOTE and stratified sampling.</li>
+                <li>Achieved 80% recall and optimized AUC-PR/F1 metrics for fraud classification.</li>
+                <li>Deployed real-time prediction app using Streamlit for user interaction.</li>
+              </ul>
+              <p class="tech-stack"><strong>Tech Stack:</strong> Python | LightGBM | XGBoost | SMOTE | Streamlit | Scikit-learn | Pandas</p>
+            </div>
+          </div>
+        </li>
+      
+        <!-- Movie Analysis Data Pipeline -->
+        <li>
+          <div class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
+            <div class="card-content">
+              <p class="card-subtitle">Cloud Project</p>
+              <h3 class="h3 card-title">
+                🎬 Movie Analysis Data Pipeline
+                <a href="https://github.com/nikkirastogi/AWS-Movie-Recommender" target="_blank">
+                  <img src="./assets/icons/github.svg" alt="GitHub" style="width: 18px; margin-left: 8px;">
+                </a>
+              </h3>
+              <ul class="project-highlights">
+                <li>Integrated MovieLens & TMDB datasets into a unified schema on MySQL RDS.</li>
+                <li>Built ingestion workflows using AWS Lambda, Glue, S3, and SNS.</li>
+                <li>Performed automated transformations and loaded into Redshift for analytics.</li>
+                <li>Created Tableau dashboards for trend analysis and movie insights.</li>
+              </ul>
+              <p class="tech-stack"><strong>Tech Stack:</strong> AWS (Lambda, S3, Glue, SNS, RDS) | MySQL | Python | Tableau</p>
+            </div>
+          </div>
+        </li>
+      
+        <!-- Exploring the World of Books -->
+        <li>
+          <div class="portfolio-card" style="background-image: url('./assets/images/portfolio-5.jpg')">
+            <div class="card-content">
+              <p class="card-subtitle">EDA Project</p>
+              <h3 class="h3 card-title">
+                📚 Exploring the World of Books
+                <a href="https://github.com/nikkirastogi/Exploring-the-World-of-Books" target="_blank">
+                  <img src="./assets/icons/github.svg" alt="GitHub" style="width: 18px; margin-left: 8px;">
+                </a>
+              </h3>
+              <ul class="project-highlights">
+                <li>Scraped live Amazon book reviews using Selenium and processed ~1M ratings.</li>
+                <li>Developed visual insights (word clouds, rating trends, heatmaps).</li>
+                <li>Ranked top authors and domains based on reader engagement and sentiment.</li>
+                <li>Built a reusable Python EDA library to scale the analysis.</li>
+              </ul>
+              <p class="tech-stack"><strong>Tech Stack:</strong> Python | Selenium | Pandas | WordCloud | BeautifulSoup | Matplotlib</p>
+            </div>
+          </div>
+        </li>
+
+        <li>
+          <div class="portfolio-card" style="background-image: url('./assets/images/portfolio-2.jpg')">
+            <div class="card-content">
+              <p class="card-subtitle">NLP Project</p>
+        
+              <h3 class="h3 card-title">
+                Abstractive Text Summarizer (LSTM + Attention)
+                <a href="https://github.com/nikkirastogi/Abstractive-Text-Summerizer-LSTM" target="_blank" title="GitHub">
+                  <img src="./assets/icons/github.svg" alt="GitHub" style="width: 18px; margin-left: 8px;">
+                </a>
+              </h3>
+        
+              <ul class="project-highlights">
+                <li>Implemented Seq2Seq model using LSTM with Luong Attention Mechanism for text summarization.</li>
+                <li>Trained on Amazon Fine Foods Reviews dataset (~500K reviews) for high-quality review summarization.</li>
+                <li>Utilized Bi-directional LSTM encoder and attention-based decoder for context-aware generation.</li>
+                <li>Generated summaries that retained key sentiments and opinions from original reviews.</li>
+              </ul>
+        
+              <p class="tech-stack">
+                <strong>Tech Stack:</strong> Python | TensorFlow/Keras | LSTM | Attention | NLP | Amazon Fine Foods Dataset
+              </p>
+            </div>
+          </div>
+        </li>
+        
 
             <li>
               <a href="https://github.com/nikkirastogi/AWS-Movie-Recommender" target="_blank" class="portfolio-card" style="background-image: url('./assets/images/portfolio-1.jpg')">
@@ -306,18 +420,31 @@
             </li>
 
             <li>
-              <a href="https://github.com/nikkirastogi/Hospital-Disease-Track-Warehouse_ETL" class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
+              <div class="portfolio-card" style="background-image: url('./assets/images/portfolio-3.jpg')">
                 <div class="card-content">
-
                   <p class="card-subtitle">Data Science</p>
-
-                  <h3 class="h3 card-title">Hospital Disease Track Warehouse ETL</h3>
-
-                  
-
+            
+                  <h3 class="h3 card-title">
+                    🩺 Hospital Disease Track Warehouse ETL
+                    <a href="https://github.com/nikkirastogi/Hospital-Disease-Track-Warehouse_ETL" target="_blank" title="GitHub">
+                      <img src="./assets/icons/github.svg" alt="GitHub" style="width: 18px; margin-left: 8px;">
+                    </a>
+                  </h3>
+            
+                  <ul class="project-highlights">
+                    <li>Designed OLTP schema & dimensional model for patient records and diseases.</li>
+                    <li>Built ETL pipeline in Snowflake using Airflow and dbt for daily healthcare ingestion.</li>
+                    <li>Enabled data refreshes with retry logic, alerting, and executive KPIs.</li>
+                    <li>Delivered insights on appointment and treatment trends via SQL transformations.</li>
+                  </ul>
+            
+                  <p class="tech-stack">
+                    <strong>Tech Stack:</strong> PostgreSQL | Snowflake | dbt | Airflow | Python | Tableau
+                  </p>
                 </div>
-              </a>
+              </div>
             </li>
+            
 
             <li>
               <a href="https://github.com/nikkirastogi/AI-Powered-Fraud-Detection-in-Financial-Transactions" class="portfolio-card" style="background-image: url('./assets/images/portfolio-4.jpg')">
